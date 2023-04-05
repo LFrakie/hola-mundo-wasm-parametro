@@ -1,0 +1,14 @@
+{
+  "name": "salud",
+  "version": "0.1.0",
+  "files": [
+    "salud_bg.wasm",
+    "salud.js",
+    "salud.d.ts"
+  ],
+  "module": "salud.js",
+  "types": "salud.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
